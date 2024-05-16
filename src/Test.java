@@ -21,7 +21,7 @@ public class Test {
         MethodPractice mp=new MethodPractice();
         System.out.println(mp.max(a,b));*/
 
-        int a=10,b=15;
+        int a=10;
         inc(a);
         System.out.println(a);
 
