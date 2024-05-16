@@ -1,15 +1,31 @@
 public class Test {
-    static int max(int x,int y)
+     /*static int max(int x,int y)
     {
-        if (x>y)
+        if(x>y)
             return x;
         else
             return y;
-    }
-    public static void main(String[] args)
+    }*/
+
+    static void inc(int x)
     {
+        x++;
+        System.out.println(x);
+    }
+
+    public static void main(String[] args) {
+
+        /*int a=10,b=15;
+        //System.out.println(max(a,b));
+
+        MethodPractice mp=new MethodPractice();
+        System.out.println(mp.max(a,b));*/
+
         int a=10,b=15;
-        Test t=new Test();
-        System.out.println(t.max(a,b));
+        inc(a);
+        System.out.println(a);
+
+
     }
 }
+
