@@ -1,7 +1,7 @@
 public class Test {
     static int max(int x,int y)
     {
-        if(x>y)
+        if (x>y)
             return x;
         else
             return y;
@@ -9,7 +9,7 @@ public class Test {
     public static void main(String[] args)
     {
         int a=10,b=15;
-
-        System.out.println(max(a,b));
+        Test t=new Test();
+        System.out.println(t.max(a,b));
     }
 }
